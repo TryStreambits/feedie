@@ -1,0 +1,17 @@
+Description = "Feedie is an open source JavaScript library for the fetching and parsing of RSS URLs."
+License = "Apache-2.0"
+Name = "Feedie"
+Version = 0.1
+
+[Distribution]
+	TarCompressors = ["zstd"]
+
+[Projects]
+	[Projects.lib]
+		Compress = true
+		ConsolidateChildDirs = false
+		Destination = "build/feedie.js"
+		Mode = "strict"
+		Plugin = "typescript"
+		Source = "src/typescript/lib.ts"
+		Target = "ES2019"
