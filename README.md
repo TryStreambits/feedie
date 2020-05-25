@@ -2,6 +2,8 @@
 
 Feedie is an open source JavaScript library for the fetching and parsing of RSS URLs.
 
+![GitHub issues](https://img.shields.io/github/issues/TryStreambits/feedie?style=for-the-badge) ![GitHub](https://img.shields.io/github/license/TryStreambits/feedie?style=for-the-badge) ![GitHub top language](https://img.shields.io/github/languages/top/TryStreambits/feedie?style=for-the-badge)
+
 This library is build using [Typescript](https://www.typescriptlang.org/) and targets ES2020, leveraging modernish features such as the Classes, Fetch API and Promises to provide an asynchronous process for the creation and processing of RSS URLs.
 
 **This library will not provide shims or fallbacks for legacy browsers.**
